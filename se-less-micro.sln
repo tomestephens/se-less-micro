@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "se-less-micro", "se-less-micro\se-less-micro.csproj", "{17AC98A3-124C-407F-B6EE-5C9533A9E08A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17AC98A3-124C-407F-B6EE-5C9533A9E08A}.Debug|x64.ActiveCfg = Debug|x64
+		{17AC98A3-124C-407F-B6EE-5C9533A9E08A}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {291C8D65-97F9-444D-A1E0-7D3A1B54CD3B}
+	EndGlobalSection
+EndGlobal

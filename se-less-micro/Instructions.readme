@@ -1,0 +1,48 @@
+﻿R e a d m e
+-----------
+Place the below configuration into the CustomData block, modify as needed.
+
+[StockManagement]
+Enabled=true
+; Required: Target component stocks
+ParStocks=
+|SteelPlate=1000;
+|Construction=500;
+|PowerCell=200;
+|Computer=200;
+|LargeTube=200;
+|SmallTube=200;
+|Motor=100;
+|InteriorPlate=250;
+|MetalGrid=50;
+|Girder=50;
+|BulletproofGlass=50;
+; Optional: Name of LCD to display stock information
+Display=Mil-Base-LCD-1
+; Required: Name of cargo container to accumulate components
+Cargo=Mil-Base-Main-Cargo
+
+[IngotTracker]
+Enabled=true
+Display=Mil-Base-LCD-2
+
+[AutoDisassembler]
+Enabled=true
+; Required - must have a list of items to disassemble
+UnwantedItems=
+|AngleGrinderItem;
+|WelderItem;
+|HandDrillItem
+; Optional - will pick an assembler to use if not specified
+Disassembler=Assembler-Coop-1
+
+[DamageTracker]
+Enabled=true
+Threshold=100
+UseErrorDisplay=true
+Display=Mil-Base-LCD-Damage
+
+; Recommended, but not Required - This module will let you know if anything isn't working throughout the script
+[ErrorReporter]
+Display=Mil-Base-LCD-Errors
+ReportLevel=1
